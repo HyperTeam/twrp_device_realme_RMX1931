@@ -17,8 +17,6 @@
 # Release name
 PRODUCT_RELEASE_NAME := RMX1931
 
-$(call inherit-product, build/target/product/embedded.mk)
-
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
